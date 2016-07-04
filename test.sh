@@ -1,2 +1,2 @@
-# git clone $REPO solutions
-mocha ./tests/activity-$ACTIVITY
+git clone $REPO solutions
+mocha ./tests/$ACTIVITY
