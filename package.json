@@ -1,0 +1,24 @@
+{
+  "name": "frontend-tester",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/toan2406/frontend-tester.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/toan2406/frontend-tester/issues"
+  },
+  "homepage": "https://github.com/toan2406/frontend-tester#readme",
+  "dependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.5.3",
+    "sinon": "^1.17.4"
+  }
+}
