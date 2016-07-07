@@ -4,20 +4,12 @@ var solution = require('../../solutions/values-types-and-operators/numbers.js')
 
 describe('Numbers', function () {
   it('should have type of number', function () {
-    assert.equal(typeof solution.annualLeave, 'number')
-    assert.equal(typeof solution.sickLeave, 'number')
-    assert.equal(typeof solution.traningLeave, 'number')
+    assert.equal(typeof solution.average, 'number')
   })
 
-  describe('Arithmetic', function () {
-    it('should do something', function () {
-      assert.equal(solution.sum, solution.annualLeave + solution.sickLeave + solution.traningLeave)
-    })
-  })
-
-  describe('Special numbers', function () {
-    it('should do something', function () {
-      assert.equal(1, +'1')
+  describe('Leave Report', function () {
+    it('should return the right value', function () {
+      assert.equal(solution.average, (solution.annualLeave - solution.BobRemainingDays + solution.annualLeave - solution.AliceRemainingDays + solution.annualLeave - solution.TomRemainingDays) / 3)
     })
   })
 })

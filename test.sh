@@ -1,2 +1,2 @@
-git clone $REPO solutions
-mocha ./tests/$ACTIVITY
+git clone $TARGET_REPO solutions
+mocha ./tests/$ACTIVITY_ID

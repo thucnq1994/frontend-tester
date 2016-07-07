@@ -2,3 +2,6 @@ test:
   post:
     - chmod +x ./test.sh
     - ./test.sh
+notify:
+  webhooks:
+    - url: http://52.74.99.100/hook/circle/complete-story

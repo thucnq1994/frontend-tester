@@ -1,9 +1,9 @@
 /* eslint-env mocha */
 var assert = require('chai').assert
-var solution = require('../../solutions/values-types-and-operators/string.js')
+var solution = require('../../solutions/program-structure/conditional-execution.js')
 
-describe('Strings', function () {
-  describe('Hello World', function () {
+describe('Conditional', function () {
+  describe('Bob', function () {
     it('says hello world with no name', function () {
       assert.equal(solution.hello(''), 'Hello, World!')
     })
